@@ -12,25 +12,25 @@ body {
 }
 span,
 .primary-color {
-  background-image: linear-gradient(to right, #1fdbb4, #82e9d4);
+  background-image: linear-gradient(to right, #ff4143, #f79138);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .secondary-color {
-  background-image: linear-gradient(to right, #82e9d4, #1fdbb4);
+  background-image: linear-gradient(to right, #ff7d41, #ffaf6e);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .bg-primary-color {
-  background-image: linear-gradient(to right, #1fdbb4, #1ca98b);
+  background-image: linear-gradient(to right, #db4b1f, #a94b1c);
 }
 
 .button-color {
-  background-image: linear-gradient(to right, #1ca98b, #1fdbb4);
+  background-image: linear-gradient(to right, #db734d, #dd936e);
 }
 
 .button-hover:hover {
@@ -39,7 +39,7 @@ span,
 }
 
 strong {
-  color: #1fdbb4;
+  color: #db4b1f;
 }
 
 div .bg-gray {
@@ -47,13 +47,13 @@ div .bg-gray {
 }
 
 .vibrant-border {
-  border-color: #1fdbb4;
+  border-color: #ffb941;
 }
 
 .vibrant-text {
-  color: #1fdbb4;
+  color: #ffb941;
 }
 
 .icon-primary {
-  color: #1fdbb4;
+  color: #ffb941;
 }
