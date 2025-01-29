@@ -6,6 +6,8 @@ const Card = ({
     description,
     link,
     linkDescription,
+    link2,
+    linkDescription2,
 }) => {
     return(
         <div>
@@ -15,14 +17,26 @@ const Card = ({
         ) : null}
             <h5 className="card-title">{title}</h5>
             <p className="card-description">{description}</p>
-          <a
-            href={link}
-            rel={"noreferrer"}
-            target={"_blank"}
-            className="card-link button-hover"
-          >
-            {linkDescription}
-          </a>
+            <div className="card-link-container">
+            <a
+                href={link}
+                rel={"noreferrer"}
+                target={"_blank"}
+                className="card-link button-hover"
+            >
+                {linkDescription}
+            </a>
+            {link2 ? (
+                <a
+                href={link2}
+                rel={"noreferrer"}
+                target={"_blank"}
+                className="card-link button-hover"
+            >
+                {linkDescription2}
+            </a>
+            ) : null}
+        </div>
         </div> 
     </div>
     );
