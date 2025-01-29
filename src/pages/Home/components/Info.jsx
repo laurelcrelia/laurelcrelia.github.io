@@ -15,13 +15,13 @@ const Info = () => {
           <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-300">
             Hi, I&apos;m Laurel
           </p>
-          <h1 className="md:text-7xl sm-text-5xl text-4xl font-bold md:py-6"><TypeAnimation
+          <h1 className="md:text-7xl sm-text-4xl text-3xl font-bold md:py-6"><TypeAnimation
             sequence={[
               "Master's Student", 
               1000,
               "Software Developer", 
               1000,
-              "Tech Enthusiast",
+              "UX Enthusiast",
               1000,
             ]}
             wrapper="span"
