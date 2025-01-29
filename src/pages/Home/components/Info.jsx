@@ -50,7 +50,7 @@ const Info = () => {
           </div>
         </div>
         <div className="my-auto">
-          <img className="w-[400px] sm:w-[500px] mx-auto h-auto rounded-full" src={profilepic} alt="profile pic" />
+          <img className="w-[400px] sm:w-[500px] mx-auto h-auto rounded-full brightness-95" src={profilepic} alt="profile pic" />
         </div>
       </div>
     </div>
