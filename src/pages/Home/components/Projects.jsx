@@ -49,6 +49,21 @@ const Projects = () => {
               link2="https://docs.google.com/document/d/1TRG1CH2AAgGD048RMWQSMaglW61VR-R9qKf9OvJBv6Q/edit?usp=sharing"
               linkDescription2="Report"
             />
+            <Card
+              title="Work in progress..."
+              description={
+                <>
+                <p className="mb-4">
+                This is a placeholder for my other projects that I will be adding soon.
+                </p>
+                <p>
+                Most of my coding projects are on my repositories on GitHub so feel free to check them out:
+                </p>
+                </>
+              }
+              link="https://github.com/laurelcrelia?tab=repositories"
+              linkDescription="Github"
+            />
           </div>
         </div>
       </div>

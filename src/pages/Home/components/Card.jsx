@@ -18,7 +18,7 @@ const Card = ({
             <h5 className="card-title">{title}</h5>
             <p className="card-description">{description}</p>
             <div className="card-link-container">
-            <a
+            {link ? (<a
                 href={link}
                 rel={"noreferrer"}
                 target={"_blank"}
@@ -26,6 +26,7 @@ const Card = ({
             >
                 {linkDescription}
             </a>
+            ) : null}
             {link2 ? (
                 <a
                 href={link2}
