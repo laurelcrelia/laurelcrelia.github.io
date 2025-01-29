@@ -17,15 +17,37 @@ const Projects = () => {
               title="Traininghub"
               description={
                 <>
+                <p className="mb-4">
                   Our software team developed a fullstack application for Eficode Oy&apos;s internal training purposes.
+                </p>
+                <p>
                   We followed <strong>Scrum</strong> principles and used technologies such as <strong>Typescript</strong>, 
                   <strong>React</strong>, <strong>Next.js</strong>, <strong>PostgreSQL</strong> and <strong>Cypress</strong>.
+                </p>
                 </>
               }
               link="https://youtu.be/AxFC3-6Vzls"
               linkDescription="Demo Video"
               link2="https://drive.google.com/file/d/1DcCkOTZ1NqCzyu6HnxKFL2GbmXq4Lec-/view?usp=sharing"
               linkDescription2="Certificate"
+            />
+            <Card
+              title="HCI Project"
+              description={
+                <>
+                <p className="mb-4">
+                A project for the Human-Computer Interaction course at the University of Helsinki. 
+                Through this project, I gained hands-on experience in user-centered design by iterating on a mobile app prototype and conducting user research. 
+                </p>
+                <p>
+                I used <strong>Canva</strong> for prototyping.
+                </p>
+                </>
+              }
+              link="https://youtu.be/eAsj6y5yYl8"
+              linkDescription="Prototype"
+              link2="https://docs.google.com/document/d/1TRG1CH2AAgGD048RMWQSMaglW61VR-R9qKf9OvJBv6Q/edit?usp=sharing"
+              linkDescription2="Report"
             />
           </div>
         </div>
