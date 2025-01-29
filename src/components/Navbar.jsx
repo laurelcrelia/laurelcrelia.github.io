@@ -17,11 +17,11 @@ const Navbar = () => {
     }
   
     return (
-      <div className="fixed top-0 z-50 w-full">
-        <div className="text-l mx-auto my-3 flex h-24 max-w-[1140px] items-center justify-between px-4 text-gray-300">
+      <div className="fixed top-0 ml-3 z-50 w-full">
+        <div className="text-l mx-auto my-3 flex h-24 max-w-[1200px] items-center justify-between px-4 text-gray-300">
           <div className="my-auto">
           </div>
-          <h1 className="secondary-color ml-4 w-full text-xl font-bold lg:text-2xl">
+          <h1 className="secondary-color w-full text-xl font-bold lg:text-2xl">
             <HashLink smooth to="/#home">
               Laurel Matt
             </HashLink>
@@ -36,6 +36,13 @@ const Navbar = () => {
                 <li className="p-5">
                 <HashLink smooth to="/#about" scroll={el => scrollWithOffset(el)}>
                   About
+                </HashLink>
+              </li>
+              </>
+              <>
+                <li className="p-5">
+                <HashLink smooth to="/#projects">
+                  Projects
                 </HashLink>
               </li>
               </>
@@ -57,7 +64,7 @@ const Navbar = () => {
               }
             }}
             tabIndex={0}
-            className="block md:hidden"
+            className="block md:hidden mr-4"
           >
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
           </div>
@@ -82,6 +89,13 @@ const Navbar = () => {
                   <li className="p-5">
                     <HashLink smooth to="/#about" scroll={el => scrollWithOffset(el)}>
                       About
+                    </HashLink>
+                  </li>
+                </>
+                <>
+                  <li className="p-5">
+                    <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)}>
+                      Projects
                     </HashLink>
                   </li>
                 </>

@@ -8,14 +8,14 @@ const Info = () => {
   return (
     <div>
       <div
-        className="max-w-[1300px] h-[80vh] mx-auto flex flex-col-reverse sm:flex-row align-center justify-between"
+        className="max-w-[1200px] h-[100vh] mx-auto flex flex-col-reverse sm:flex-row align-center justify-between"
         id="home"
       >
         <div className="mx-8 my-auto flex-col">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-300">
+          <h2 className="title-large">
             Hi, I&apos;m Laurel
-          </p>
-          <h1 className="md:text-7xl sm-text-4xl text-3xl font-bold md:py-6"><TypeAnimation
+          </h2>
+          <h1 className="md:text-6xl sm-text-4xl text-3xl font-bold"><TypeAnimation
             sequence={[
               "Master's Student", 
               1000,

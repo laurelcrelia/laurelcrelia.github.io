@@ -3,12 +3,12 @@ import { TbFileCv } from "react-icons/tb";
 
 const About= () => {
     return (
-      <div className="py-10 text-white bg-[#1e1e1ef5] h-auto "id="about">
-        <div className="flex sm:flex-row items-center px-10 max-w-6xl mx-auto">
+      <div className="py-10 text-white bg-[#090909] h-auto "id="about">
+        <div className="flex sm:flex-row items-center px-10 max-w-[1200px] mx-auto">
             <div>
                 <div className="p-2">
                     <div className="text-gray-300 my-3">
-                        <h3 className="text-4xl font-semibold mb-5">About</h3>
+                        <h3 className="title-large">About</h3>
                         <p className="flex items-center justify-center mb-4 text-xl md:text-2xl">
                             I&apos;m a fourth-year computer science student at the University of Helsinki,
                             currently pursuing my master&apos;s degree. 
