@@ -4,7 +4,7 @@ import { TbFileCv } from "react-icons/tb";
 const About= () => {
     return (
         <div className="text-white bg-[#090909] min-h-screen items-center flex sm:flex-row px-10 justify-between"id="about">
-            <div className="max-w-[1200px] mx-auto text-gray-300">
+            <div className="max-w-[1200px] mx-auto sm:px-10  text-gray-300">
                 <h2 className="title-large pb-8">
                 About
                 </h2>

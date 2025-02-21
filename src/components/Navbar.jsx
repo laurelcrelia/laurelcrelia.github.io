@@ -10,18 +10,18 @@ const Navbar = () => {
       setNav(!nav)
     }
 
-    const scrollWithOffset = (el) => {
+    const scrollWithOffset = (el, amount) => {
       const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset
-      const yOffset = -100
+      const yOffset = amount
       window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' })
     }
   
     return (
-      <div className="fixed top-0 ml-3 z-50 w-full">
-        <div className="text-l mx-auto my-3 flex h-24 max-w-[1200px] items-center justify-between px-4 text-gray-300">
+      <div className="fixed top-0 z-50 w-full bg-opacity-35 bg-black">
+        <div className="text-l mx-auto my-3 flex h-20 max-w-[1200px] items-center justify-between px-4 text-gray-300">
           <div className="my-auto">
           </div>
-          <h1 className="secondary-color w-full text-xl font-bold lg:text-2xl">
+          <h1 className="ml-5 secondary-color w-full text-xl font-bold lg:text-2xl">
             <HashLink smooth to="/#home">
               Laurel Matt
             </HashLink>
@@ -34,14 +34,14 @@ const Navbar = () => {
             </li>
               <>
                 <li className="p-5">
-                <HashLink smooth to="/#about" scroll={el => scrollWithOffset(el)}>
+                <HashLink smooth to="/#about">
                   About
                 </HashLink>
               </li>
               </>
               <>
                 <li className="p-5">
-                <HashLink smooth to="/#projects">
+                <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el, -105)}>
                   Projects
                 </HashLink>
               </li>
@@ -87,14 +87,14 @@ const Navbar = () => {
               </li>
               <>
                   <li className="p-5">
-                    <HashLink smooth to="/#about" scroll={el => scrollWithOffset(el)}>
+                    <HashLink smooth to="/#about">
                       About
                     </HashLink>
                   </li>
                 </>
                 <>
                   <li className="p-5">
-                    <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)}>
+                    <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el, -105)}>
                       Projects
                     </HashLink>
                   </li>

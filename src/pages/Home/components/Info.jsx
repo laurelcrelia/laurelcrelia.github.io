@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation"
 const Info = () => {
   return (
     <div
-      className="max-w-[1200px] min-h-screen mx-auto px-3 sm:px-8 flex items-center"
+      className="max-w-[1200px] min-h-screen mx-auto px-6 sm:px-6 flex items-center"
       id="home"
     >
       <div className="my-auto flex flex-col-reverse sm:flex-row justify-between w-full">
