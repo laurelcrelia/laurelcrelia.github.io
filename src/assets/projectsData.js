@@ -70,6 +70,22 @@ const projects = [
       filter: ["Python", "Django", "HTML"],
     },
     {
+        title: "Alepa City Bikes Data Analysis",
+        description: (
+          <>
+            <p className="mb-4">
+            As my first data science project, I analyzed HSL's open-source Origin-Destination data and station network data.
+            </p>
+            <p>
+            For data processing and visualization I used <strong>Python</strong> and libraries such as <strong>pandas</strong>, <strong>numpy</strong>, and <strong>matplotlib</strong>
+            </p>
+          </>
+        ),
+        link: "https://drive.google.com/file/d/1EP7yst1CdBUBfto_g10PuHLILnmTD-C8/view?usp=sharing",
+        linkDescription: "Report",
+        filter: ["Python"],
+      },
+    {
         title: "Work in progress...",
         description: (
           <>
