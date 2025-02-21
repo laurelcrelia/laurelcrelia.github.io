@@ -85,6 +85,22 @@ const projects = [
         linkDescription: "Report",
         filter: ["Python"],
       },
+      {
+        title: "Todo App",
+        description: (
+          <>
+            <p className="mb-4">
+            A simple todo app where you can create, view, edit and delete todos. This project was created within a time limit of 12 hours and it was my very first time developing a fullstack project. 
+            </p>
+            <p>
+            I used PERN stack (<strong>PostgreSQL</strong>, <strong>Express</strong>, <strong>React</strong> & <strong>Node</strong>).
+            </p>
+          </>
+        ),
+        link: "https://github.com/laurelcrelia/todo-app",
+        linkDescription: "Github",
+        filter: ["Javascript", "React", "Node.js", "PostgreSQL"],
+      },
     {
         title: "Work in progress...",
         description: (
