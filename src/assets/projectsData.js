@@ -99,7 +99,7 @@ const projects = [
     ),
     link: "https://github.com/laurelcrelia/todo-app",
     linkDescription: "Github",
-    filter: ["Javascript", "React", "Node.js", "PostgreSQL", "SQL"],
+    filter: ["Javascript", "React", "Node.js", "PostgreSQL", "SQL", "HTML", "CSS"],
     },
     {
     title: "Workout Diary App",
@@ -131,7 +131,7 @@ const projects = [
         ),
         link: "https://github.com/laurelcrelia?tab=repositories",
         linkDescription: "Github",
-        filter: [],
+        filter: ["R", "Robot Framework"],
       },
   ];
 
