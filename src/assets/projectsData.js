@@ -16,7 +16,7 @@ const projects = [
       linkDescription: "Demo Video",
       link2: "https://drive.google.com/file/d/1DcCkOTZ1NqCzyu6HnxKFL2GbmXq4Lec-/view?usp=sharing",
       linkDescription2: "Certificate",
-      filter: ["Typescript", "React", "Next.js", "PostgreSQL", "Cypress"],
+      filter: ["Typescript", "React", "Next.js", "PostgreSQL", "Cypress", "SQL", "Jest"],
     },
     {
       title: "HCI Project",
@@ -84,23 +84,39 @@ const projects = [
         link: "https://drive.google.com/file/d/1EP7yst1CdBUBfto_g10PuHLILnmTD-C8/view?usp=sharing",
         linkDescription: "Report",
         filter: ["Python"],
-      },
-      {
-        title: "Todo App",
-        description: (
-          <>
-            <p className="mb-4">
-            A simple todo app where you can create, view, edit and delete todos. This project was created within a time limit of 12 hours and it was my very first time developing a fullstack project. 
-            </p>
-            <p>
-            I used PERN stack (<strong>PostgreSQL</strong>, <strong>Express</strong>, <strong>React</strong> & <strong>Node</strong>).
-            </p>
-          </>
-        ),
-        link: "https://github.com/laurelcrelia/todo-app",
-        linkDescription: "Github",
-        filter: ["Javascript", "React", "Node.js", "PostgreSQL"],
-      },
+    },
+    {
+    title: "Todo App",
+    description: (
+        <>
+        <p className="mb-4">
+        A simple todo application where you can create, view, edit and delete todos. This project was created within a time limit of 12 hours and it was my very first time developing a fullstack project. 
+        </p>
+        <p>
+        I used PERN stack (<strong>PostgreSQL</strong>, <strong>Express</strong>, <strong>React</strong> & <strong>Node</strong>).
+        </p>
+        </>
+    ),
+    link: "https://github.com/laurelcrelia/todo-app",
+    linkDescription: "Github",
+    filter: ["Javascript", "React", "Node.js", "PostgreSQL", "SQL"],
+    },
+    {
+    title: "Workout Diary App",
+    description: (
+        <>
+        <p className="mb-4">
+        A simple workout diary app that was developed for the Databases and Web Programming course. Featuring authentication, workout tracking, and social interaction.
+        </p>
+        <p>
+        I used <strong>Python</strong> (Flask), <strong>PostgreSQL</strong>, <strong>HTML</strong> and <strong>CSS</strong>.
+        </p>
+        </>
+    ),
+    link: "https://github.com/laurelcrelia/workout-diary-app",
+    linkDescription: "Github",
+    filter: ["Python", "PostgreSQL", "HTML", "CSS", "SQL"],
+    },
     {
         title: "Work in progress...",
         description: (
