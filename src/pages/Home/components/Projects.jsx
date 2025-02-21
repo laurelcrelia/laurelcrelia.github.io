@@ -53,13 +53,26 @@ const Projects = () => {
             description={
               <>
               <p className="mb-4">
-              A project for the 2023 Data Structures Lab at the University of Helsinki, implementing and visualizing Kruskal’s and Depth-First Search algorithms for maze generation.                </p>
+              A project for the 2023 Data Structures Lab at the University of Helsinki, implementing and visualizing Kruskal&apos;s and Depth-First Search algorithms for maze generation.                </p>
               <p>
               I built the algorithms with <strong>Python</strong>, visualized them with <strong>Pygame</strong> and did unit testing with <strong>Pytest</strong>.              
               </p>
               </>
             }
             link="https://github.com/laurelcrelia/data-structures-lab"
+            linkDescription="Repository"
+          />
+          <Card
+            title="Cyber Security Project"
+            description={
+              <>
+              <p className="mb-4">
+              A web application with five intentional OWASP Top Ten security vulnerabilities, developed as part of the Cyber Security Base course. The app functions as an event countdown timer, emphasizing security flaw exploration over UI design.</p>
+              <p>I developed it using <strong>Python</strong>, <strong>Django</strong> and <strong>HTML</strong>.              
+              </p>
+              </>
+            }
+            link="https://github.com/laurelcrelia/csb-project1"
             linkDescription="Repository"
           />
           <Card
