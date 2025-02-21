@@ -8,7 +8,7 @@ const Projects = () => {
     >
       <div className="px-4 mb-4 items-center gap-12 md:flex-col-reverse md:gap-6">
         <div className="flex flex-col">
-          <h2 className="title-large">
+          <h2 className="title-large ml-3">
             My <span>Projects</span>
           </h2>
 
