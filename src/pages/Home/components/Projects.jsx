@@ -18,7 +18,7 @@ const Projects = () => {
               description={
                 <>
                 <p className="mb-4">
-                  Our software team developed a fullstack application for Eficode Oy&apos;s internal training purposes.
+                On a Software Engineering Lab course, our software team developed a fullstack application for Eficode Oy&apos;s internal training purposes.
                 </p>
                 <p>
                   We followed <strong>Scrum</strong> principles and used technologies such as <strong>Typescript</strong>, 
@@ -48,6 +48,20 @@ const Projects = () => {
               linkDescription="Prototype"
               link2="https://docs.google.com/document/d/1TRG1CH2AAgGD048RMWQSMaglW61VR-R9qKf9OvJBv6Q/edit?usp=sharing"
               linkDescription2="Report"
+            />
+            <Card
+              title="Maze Generator"
+              description={
+                <>
+                <p className="mb-4">
+                A project for the 2023 Data Structures Lab at the University of Helsinki, implementing and visualizing Kruskal’s and Depth-First Search algorithms for maze generation.                </p>
+                <p>
+                I built the algorithms with <strong>Python</strong>, visualized them with <strong>Pygame</strong> and did unit testing with <strong>Pytest</strong>.              
+                </p>
+                </>
+              }
+              link="https://github.com/laurelcrelia/data-structures-lab"
+              linkDescription="Repository"
             />
             <Card
               title="Work in progress..."
