@@ -19,7 +19,7 @@ const Projects = () => {
             onClick={() => toggleTech(tech)}
             className={`px-3 py-1 rounded-full border transition ${
               selectedTech.includes(tech) ? "border-yellow-500 text-yellow-500" : "border-white text-white"
-            }`}
+            } sm:hover:border-yellow-200 sm:hover:text-yellow-200`}
           >
             {tech}
           </button>
