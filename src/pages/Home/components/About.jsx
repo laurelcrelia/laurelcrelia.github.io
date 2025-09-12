@@ -9,9 +9,7 @@ const About= () => {
                 About
                 </h2>
                 <p className="items-center justify-center mb-4 text-xl md:text-2xl">
-                    I&apos;m a fourth-year computer science student at the University of Helsinki,
-                    currently pursuing my master&apos;s degree. 
-                    I am open to all possibilities in the tech field, but currently my expertise lies in agile and user-centered software development.
+                    {process.env.REACT_APP_DESCRIPTION}
                 </p>
                 <p className="items-center justify-start text-xl md:text-2xl">
                 More about my experience in my CV:
@@ -20,7 +18,7 @@ const About= () => {
                 <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://drive.google.com/file/d/1rszwL5F5OuKhJV3-JxG8Ge6mbUCCTIsA/view?usp=sharing"
+                        href={process.env.REACT_APP_CV_URL}
                         className="button-hover flex items-center justify-center rounded-lg border vibrant-border px-4 py-2 text-lg vibrant-text"
                         >
                         <TbFileCv className="mr-2 icon-primary" /> CV

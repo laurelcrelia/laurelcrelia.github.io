@@ -3,7 +3,7 @@ import Card from "../components/Card.jsx";
 import useFilter from "../../../components/Filter.jsx";
 import projects from "../../../assets/projectsData";
 
-const techOptions = ["Python", "Javascript", "Typescript", "React", "SQL", "R", "Django", "HTML", "CSS", "Next.js", "Node.js", "PostgreSQL", "Cypress", "Jest", "Robot Framework", "Pygame", "Pytest"];
+const techOptions = process.env.REACT_APP_TECH_OPTIONS.split(",");
 
 const Projects = () => {
   const { filteredItems: filteredProjects, selectedCriteria: selectedTech, toggleCriteria: toggleTech } = useFilter(projects);

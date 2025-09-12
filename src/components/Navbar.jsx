@@ -23,7 +23,7 @@ const Navbar = () => {
           </div>
           <h1 className="ml-5 secondary-color w-full text-xl font-bold lg:text-2xl">
             <HashLink smooth to="/#home">
-              Laurel Matt
+              {process.env.REACT_APP_FULL_NAME}
             </HashLink>
           </h1>
           <ul className="hidden md:flex">
@@ -77,7 +77,7 @@ const Navbar = () => {
             }
           >
             <h1 className="secondary-color m-4 text-3xl font-bold">
-              Laurel Matt
+              {process.env.REACT_APP_FULL_NAME}
             </h1>
             <ul className="p-8 text-2xl">
               <li className="p-5">

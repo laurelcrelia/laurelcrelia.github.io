@@ -14,19 +14,19 @@ const Contact = () => {
         </p>
         <div className="my-7 flex flex-col justify-center gap-5 text-5xl text-primary sm:flex-row">
           <a
-            href="https://github.com/laurelcrelia"
+            href={process.env.REACT_APP_GITHUB_URL}
             className="button-hover flex items-center justify-center rounded-lg border vibrant-border px-4 py-2 text-lg vibrant-text"
           >
             <AiFillGithub className="mr-2 icon-primary" /> Github
           </a>
           <a
-            href="https://www.linkedin.com/in/laurel-matt-71a4bb227"
+            href={process.env.REACT_APP_LINKEDIN_URL}
             className="button-hover flex items-center justify-center rounded-lg border vibrant-border px-4 py-2 text-lg vibrant-text"
           >
             <AiFillLinkedin className="mr-2 icon-primary" /> LinkedIn
           </a>
           <a
-            href="mailto:laurel.matt@gmail.com"
+            href={`mailto:${process.env.REACT_APP_EMAIL}`}
             className="button-hover flex items-center justify-center rounded-lg border vibrant-border px-4 py-2 text-lg vibrant-text"
           >
             <RiMailSendFill className="mr-2 icon-primary" /> Email
