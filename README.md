@@ -40,7 +40,7 @@ Create a `.env` file in the project root with the following variables:
 ```
 # ------- Personal Info -------
 REACT_APP_NAME="Your Name"
-REACT_APP_FULLNAME="Your Full Name"
+REACT_APP_FULL_NAME="Your Full Name"
 REACT_APP_EMAIL=your.email@example.com
 REACT_APP_KEYWORD1="Your Profession"
 REACT_APP_KEYWORD2="Your Study Status"
