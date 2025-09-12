@@ -56,8 +56,40 @@ REACT_APP_LINKEDIN_URL="https://www.linkedin.com/in/yourusername"
 REACT_APP_TECH_OPTIONS="Technology1,Technology2,Technology3..."
 
 ```
+4. **Add your profile image**       
+Place your profile image in the `src/assets` directory and name it `Picture.jpg`.
 
-4. **Start the development server**
+5. **Create a `projectsData.json` file** 
+
+Add your project details in a JSON file which will be used to dynamically render the projects section.
+
+Create a `projectsData.json` file in the `src/assets` directory with the following structure:
+
+```json
+[
+  {
+    title: "Project 1",
+    description: "Description of Project 1",
+    image: "path/to/image1.jpg",
+    link: "https://github.com/yourusername/project1",
+    linkDescription: "Project 1",
+    filter: ["Technology1", "Technology2"]
+  },
+  {
+    title: "Project 2",
+    description: (<p className="mb-4"> Description of Project 2. I used technologies such as <strong>React</strong> and <strong>Node.js</strong>.</p>),
+    image: "./assets/images/project2.jpg",
+    link: "https://github.com/yourusername/project2",
+    linkDescription: "Project 2",
+    filter: ["Technology3", "Technology4"]
+  },
+  ...
+]
+```
+
+None of the fields are mandatory so you can mix and match as you like.
+
+6. **Start the development server**
 
 ```bash
 npm start

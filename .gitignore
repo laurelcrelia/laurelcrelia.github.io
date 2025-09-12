@@ -24,3 +24,7 @@ yarn-error.log*
 
 # Envirionment variables file
 .env
+
+# Assets (e.g. profile image, project data file projectsData.json, etc.)
+/src/assets
+
