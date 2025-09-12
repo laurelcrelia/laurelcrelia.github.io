@@ -65,8 +65,8 @@ Add your project details in a JSON file which will be used to dynamically render
 
 Create a `projectsData.json` file in the `src/assets` directory with the following structure:
 
-```json
-[
+```
+const projects = [
   {
     title: "Project 1",
     description: "Description of Project 1",
@@ -85,6 +85,7 @@ Create a `projectsData.json` file in the `src/assets` directory with the followi
   },
   ...
 ]
+export default projects;
 ```
 
 None of the fields are mandatory so you can mix and match as you like.
