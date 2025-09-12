@@ -57,13 +57,13 @@ REACT_APP_TECH_OPTIONS="Technology1,Technology2,Technology3..."
 
 ```
 4. **Add your profile image**       
-Place your profile image in the `src/assets` directory and name it `Picture.jpg`.
+Place your profile image in the `src/assets` directory and name it `profile.png`.
 
-5. **Create a `projectsData.json` file** 
+5. **Create a `projectsData.js` file** 
 
-Add your project details in a JSON file which will be used to dynamically render the projects section.
+Add your project details in a JavaScript file which will be used to dynamically render the projects section.
 
-Create a `projectsData.json` file in the `src/assets` directory with the following structure:
+Create a `projectsData.js` file in the `src/assets` directory with the following structure:
 
 ```
 const projects = [

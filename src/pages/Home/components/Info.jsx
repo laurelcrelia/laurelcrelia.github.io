@@ -1,7 +1,7 @@
 import React from "react"
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 import { RiMailSendFill } from "react-icons/ri"
-import profilepic from "../../../assets/Picture.png"
+import profilepic from "../../../assets/profile.png"
 import { TypeAnimation } from "react-type-animation"
 
 const getRoleClass = (role) => {
