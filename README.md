@@ -2,7 +2,7 @@
 
 A portfolio website built with React, showcasing my projects, skills, and background as a Computer Science student.
 
-[https://laurelcrelia.github.io](https://laurelcrelia.github.io)
+The portfolio can be viewed at [https://laurelcrelia.github.io](https://laurelcrelia.github.io)
 
 ## Tech Stack
 
@@ -11,7 +11,7 @@ A portfolio website built with React, showcasing my projects, skills, and backgr
 - **Deployment**: GitHub Pages
 - **Environment**: Create React App
 
-## How to Run Locally
+## How to Run Locally (Development)
 
 ### Prerequisites
 
