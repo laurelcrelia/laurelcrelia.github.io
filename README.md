@@ -42,9 +42,7 @@ Create a `.env` file in the project root with the following variables:
 REACT_APP_NAME="Your Name"
 REACT_APP_FULL_NAME="Your Full Name"
 REACT_APP_EMAIL=your.email@example.com
-REACT_APP_KEYWORD1="Your Profession"
-REACT_APP_KEYWORD2="Your Study Status"
-REACT_APP_KEYWORD3="Your Hobby/Interest"
+REACT_APP_KEYWORDS="Your Profession, Your Study Status, Your Hobby/Interest"
 REACT_APP_DESCRIPTION="A brief description about you."
 
 # ------- URLs -------
