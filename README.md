@@ -121,6 +121,8 @@ npm run deploy
 ```
 This will create a production build and push it to the `gh-pages` branch of your repository.
 
+(More detailed instructions here [https://github.com/gitname/react-gh-pages](https://github.com/gitname/react-gh-pages))
+
 ## Project Structure
 
 ```
