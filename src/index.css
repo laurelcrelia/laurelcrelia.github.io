@@ -1,15 +1,19 @@
+/* === Imports & Tailwind === */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* === Base Styles === */
 body {
   background-color: #111318;
   font-family: "Poppins", sans-serif;
   font-size: large;
   letter-spacing: 0.3px;
 }
+
+/* === Text Gradients === */
 span,
 .primary-color {
   background-image: linear-gradient(to right, #ff4143, #f79138);
@@ -25,41 +29,23 @@ span,
   color: transparent;
 }
 
-.bg-primary-color {
-  background-image: linear-gradient(to right, #db4b1f, #a94b1c);
-}
-
-.button-color {
-  background-image: linear-gradient(to right, #db734d, #dd936e);
-}
-
+/* === Button Effects === */
 .button-hover:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
 
-strong {
-  color: #db4b1f;
-}
-
-div .bg-gray {
-  background-color: #111318;
-}
-
-/* Details */
+/* === Accent & Icon Colors === */
 .vibrant-border {
   border-color: #ffb941;
 }
 
-.vibrant-text {
-  color: #ffb941;
-}
-
+.vibrant-text,
 .icon-primary {
   color: #ffb941;
 }
 
-/* Titles */
+/* === Titles === */
 .title-large {
   margin-bottom: 0.5rem;
   font-size: 2.75rem;
@@ -67,8 +53,7 @@ div .bg-gray {
   color: white;
 }
 
-/* Cards */
-
+/* === Card Component === */
 .card {
   background-color: #050505;
   display: flex;
@@ -109,7 +94,7 @@ div .bg-gray {
 .card .card-description {
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #E5E7EB;
+  color: #e5e7eb;
   text-align: left;
   width: 100%;
 }
@@ -133,10 +118,19 @@ div .bg-gray {
   margin-top: 10px;
   margin-bottom: 5px;
   display: inline-flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   font-size: 0.875rem;
   transition: transform 0.3s ease;
   width: 120px;
   margin-left: 0;
+}
+
+.button-color {
+  background-image: linear-gradient(to right, #db734d, #dd936e);
+}
+
+/* === Bold Text === */
+strong {
+  color: #db4b1f;
 }
